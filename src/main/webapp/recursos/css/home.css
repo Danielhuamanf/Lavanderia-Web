@@ -1,0 +1,44 @@
+#sidebar-wrapper {
+    width: 250px;
+    background-color: #9cd0ec;
+    color: white;
+    min-height: 100vh;
+}
+
+.sidebar-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #0055b2;
+    padding: 1rem;
+}
+
+.list-group-item {
+    background-color: #9cd0ec;
+    color: #0055b2;
+    border: none;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+}
+
+.list-group-item:hover {
+    background-color: #0055b2;
+    color: white;
+}
+
+.list-group-item-action:last-child {
+    margin-top: auto;
+}
+
+.logout {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0055b2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logout:hover {
+    background-color: #0055b2;
+}

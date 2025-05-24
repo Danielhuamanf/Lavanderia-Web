@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #a2c4e6, #dcdcdc);
+}
+
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1.5fr;
+  grid-template-rows: auto auto auto;
+  grid-gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  grid-column: 1 / 2;
+}
+
+.header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.header img {
+  border-radius: 5%;
+  width: 700px;
+  height: 300px;
+  display: block;
+}
+
+.header h1 {
+  position: absolute;
+  top: 20px; /* puedes ajustar según el diseño */
+  left: 20px;
+  color: rgb(198, 198, 198);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6); /* para mejor visibilidad */
+}
+
+.video-placeholder {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 25%;
+  height: 300px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,0.2); /* opcional para visibilidad */
+}
+
+.descripcion {
+  grid-column: 1 / 3;
+}
+
+.descripcion p {
+  font-size: 18px;
+}
+
+.btn-visita {
+  margin: 15px 0;
+  background: #ffff66;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.delivery-notice {
+  background-color: #c4a5f5;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.logo-central {
+  text-align: center;
+  grid-column: 2 / 3;
+}
+
+.logo-central img {
+  width: 270px;
+  border-radius: 70%;
+}
+
+.logo-central p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contacto {
+  grid-column: 2 / 3;
+}
+
+.contacto img {
+  margin-left: 1000px;
+  width: 160px;
+  margin-top: 10px;
+}
+
+.servicios {
+  background: linear-gradient(to right, #9053DF, #A62F88);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  grid-column: 3 / 4;
+  align-self: start;
+}
+
+.servicios h3 {
+  margin-top: 0;
+}
+
+.servicios ul {
+  list-style: none;
+  padding: 0;
+}
+
+.servicios li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}

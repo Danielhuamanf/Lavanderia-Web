@@ -1,7 +1,14 @@
 DAO\dao\UsuarioDAO.class
+DTO\dto\CategoriaDTO.class
+DTO\dto\ServicioDTO.class
+DAO\dao\SolicitudDAO.class
+DAO\dao\CategoriaDAO.class
+DAO\dao\ServicioDAO.class
 Controlador\UsuarioServlet.class
+DTO\dto\SolicitudDTO.class
 util\MySQLConnection.class
-Controlador\loginServlet.class
-Controlador\pruebaServlet.class
+DTO\dto\PedidoDTO.class
+DTO\dto\ServicioAdicionalDTO.class
 modelo\Usuario.class
+Controlador\SolicitudServlet.class
 DTO\dto\UsuarioDTO.class

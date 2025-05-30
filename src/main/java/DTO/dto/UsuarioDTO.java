@@ -2,25 +2,29 @@
 package DTO.dto;
 
 public class UsuarioDTO {
+    private int id;
     private String nombre;
     private String correo;
     private String telefono;
     private String contrasena;
     private String direccion;
-    private String rol;
+    
 
+    public UsuarioDTO() {
+    }
+    
     public UsuarioDTO(String correo, String contrasena) {
         this.correo = correo;
         this.contrasena = contrasena;
     }
 
-    public UsuarioDTO(String nombre, String correo, String telefono, String contrasena, String direccion, String rol) {
+    public UsuarioDTO(String nombre, String correo, String telefono, String contrasena, String direccion) {
         this.nombre = nombre;
         this.correo = correo;
         this.telefono = telefono;
         this.contrasena = contrasena;
         this.direccion = direccion;
-        this.rol = rol;
+       
     }
     public String getNombre() {
         return nombre;
@@ -37,7 +41,36 @@ public class UsuarioDTO {
     public String getDireccion() {
         return direccion;
     }
-    public String getRol() {
-        return rol;
-    }   
+   
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    
+    
 }

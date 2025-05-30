@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class MySQLConnection {
     private static final String JDBC_DRIVER = "org.postgresql.Driver";
-    private static final String URL = "jdbc:postgresql://localhost:5432/LavanderiaWeb";
+    private static final String URL = "jdbc:postgresql://localhost:5432/lavanderiaweb3";
     private static final String USER = "postgres";
     private static final String PASSWORD = "admin";
     

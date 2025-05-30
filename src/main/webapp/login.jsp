@@ -25,14 +25,14 @@
 
                     <div class="login-section">
                         <h2>Iniciar Sesión</h2>
-                        <form action="login" method="post">
+                        <form action="UsuarioServlet?action=login" method="post">
                             <label for="correo">Correo:</label>
                             <input type="text" id="username" name="correo" placeholder="@ejemplo.com" required>
 
                             <label for="contrasena">Contraseña:</label>
                             <input type="password" id="password" name="contrasena" placeholder="********" required>
 
-                            <a href="index.jsp">Registrate</a>
+                            <a href="registrar.jsp">Registrate</a>
 
                             <button type="submit" value="Submit">Ingresar</button>
                         </form>
